@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    background-color: white;
+    
+}
+.slider {
+    margin-bottom: 20px;
+}
+
+@media  only screen and (max-width:769px){
+    .container_box {
+        display: none;
+    }
+    .slider {
+        margin-top: 10px;
+    }
+}

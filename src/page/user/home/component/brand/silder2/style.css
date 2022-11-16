@@ -1,0 +1,27 @@
+#list__item_header1{
+    /* width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden; */
+}
+.mySwiper2 >.swiper-button-next::after,
+.mySwiper2 >.swiper-button-prev::after{
+    /* background: none; */
+}
+#list__item_header2{
+    height: 280px;
+    width: 190px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.mySwiper5>.swiper-pagination{
+    display: none;
+}
+
+.mySwiper5>.swiper-button-prev.swiper-button-disabled,
+.mySwiper5>.swiper-button-next.swiper-button-disabled
+{
+  display: none;
+}
